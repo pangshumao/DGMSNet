@@ -29,23 +29,24 @@ Here, we will show how to prepare the Dataset-B (i.e., Spinal disease dataset).
 
 >>> in
 >>>> mask
+>>>> keypoints
 
 3. Run the following commands in the terminal:
-
-cd DGMSNet
-
+```
+cd DGMSNet  
 python -u prepare_spinal_disease_dataset.py --data_dir=./data/Spinal_disease_dataset
-
+```
 ## Training
 run the following script in the terminal:
-
+```
 nohup ./train_spinal_disease_dataset.sh > train_spinal_disease_dataset.out &
-
+```
 ## Test
 To test the model without DGLF, please run the following script in the terminal:
-
+```
 nohup ./test_spinal_disease_dataset_without_dglf.sh > test_spinal_disease_dataset_without_dglf.out &
-
+```
 To test the model with DGLF, please run the following script in the terminal:
-
+```
 nohup ./test_spinal_disease_dataset_with_dglf.sh > test_spinal_disease_dataset_with_dglf.out &
+```
