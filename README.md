@@ -48,3 +48,7 @@ To test the model with DGLF, please run the following script in the terminal:
 ```
 nohup ./test_spinal_disease_dataset_with_dglf.sh > test_spinal_disease_dataset_with_dglf.out &
 ```
+
+## Acknowledgement
+The core and nn_tool packages were modified from <https://github.com/wolaituodiban/spinal_detection_baseline.git> and <https://github.com/wolaituodiban/nn_tools.git> respectively. Thanks for their work.
+
