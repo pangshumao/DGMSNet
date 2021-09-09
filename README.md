@@ -1,5 +1,5 @@
 # DGMSNet
-## This is the official implementation of DGMSNet: Spine Segmentation for MR Image by a Detection-Guided Mixed-supervised Segmentation Network, 2021.
+This is the official implementation of DGMSNet: Spine Segmentation for MR Image by a Detection-Guided Mixed-supervised Segmentation Network, 2021.
 ## Requirements
 - Pytorch 1.7.0
 - Python 3.6.5
