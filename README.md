@@ -1,5 +1,5 @@
 # DGMSNet
-This is the official implementation of DGMSNet: Spine Segmentation for MR Image by a Detection-Guided Mixed-supervised Segmentation Network, Medical Image Analysis (minor revision), 2021.
+This is the official implementation of DGMSNet: Spine Segmentation for MR Image by a Detection-Guided Mixed-supervised Segmentation Network, 2021.
 ## Requirements
 - Pytorch 1.7.0
 - Python 3.6.5
@@ -48,3 +48,7 @@ To test the model with DGLF, please run the following script in the terminal:
 ```
 nohup ./test_spinal_disease_dataset_with_dglf.sh > test_spinal_disease_dataset_with_dglf.out &
 ```
+
+## Acknowledgement
+The core and nn_tool packages were modified from <https://github.com/wolaituodiban/spinal_detection_baseline.git> and <https://github.com/wolaituodiban/nn_tools.git> respectively. Thanks for their work.
+
