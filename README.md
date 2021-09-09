@@ -50,5 +50,5 @@ nohup ./test_spinal_disease_dataset_with_dglf.sh > test_spinal_disease_dataset_w
 ```
 
 ## Acknowledgement
-The core and nn_tool packages were modified from <https://github.com/wolaituodiban/spinal_detection_baseline.git> and <https://github.com/wolaituodiban/nn_tools.git> respectively. Thanks for their work.
+The core and nn_tool packages were modified from <https://github.com/wolaituodiban/spinal_detection_baseline.git> and <https://github.com/wolaituodiban/nn_tools.git> respectively. Thanks for these works.
 
